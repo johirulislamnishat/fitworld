@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../logo.png'
+import { NavLink } from 'react-router-dom'
 import './Header.css'
 
 const Header = () => {
@@ -14,11 +15,10 @@ const Header = () => {
                 </a>
 
                 <div className='navigation ml-16'>
-                    <a href="#">Home</a>
-                    <a href="#">Courses</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Contact Us</a>
-
+                    <NavLink to="/home">Home</NavLink>
+                    <NavLink to="/courses">Courses</NavLink>
+                    <NavLink to="/about">About Us</NavLink>
+                    <NavLink to="/contact">Contact Us</NavLink>
                 </div>
 
             </nav>

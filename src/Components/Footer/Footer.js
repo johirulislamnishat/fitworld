@@ -10,7 +10,7 @@ const Footer = () => {
     footer start 
     ----------*/}
             <footer className="bg-gray-800 pt-10">
-                <div className='max-w-7xl'>
+                <div className='max-w-7xl mx-auto'>
 
                     <div className="text-gray-800 grid grid-cols-1 md:grid-cols-4 gap-6">
 
@@ -21,8 +21,7 @@ const Footer = () => {
                                 <img src={logo} alt="Logo" className="h-16 w-16" />
                             </div>
 
-                            <p className="tmy-3 block text-gray-200">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                Voluptatum earum quos tempore non, voluptate sunt maiores quo veniam rem ratione!</p>
+                            <p className="tmy-3 block text-gray-200">Welcome to yoga academy. We will train you properly.Dlor sit amet consectetur adipisicing elit. Dignissimos, aliquam!</p>
                         </div>
 
                         {/*  Col-2 */}
@@ -66,22 +65,18 @@ const Footer = () => {
                                 Law Enforcement
                             </a>
                         </div>
-
                         {/*  Col-3 */}
                         <div className="px-2">
                             {/*  Col Title */}
                             <div className="text-xl text-white font-medium mb-6">
-                                Install App
+                                Newsletter
                             </div>
 
-                            {/* Links */}
-                            <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                                <img src="./assets/icons/Google-Play-Badge.png" alt="Google-Play-Badge" />
-                            </a>
-                            <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                                <img src="./assets/icons/App-Store-Badge.png" alt="App-Store-Badge" />
-                            </a>
+                            {/*  Links */}
+                            <input type="text" placeholder='Search' className='text-gray-800 px-3 py-1' />
                         </div>
+
+
                     </div>
 
                     {/*  Copyright Bar */}
