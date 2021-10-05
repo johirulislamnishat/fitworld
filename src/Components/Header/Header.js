@@ -7,6 +7,8 @@ const Header = () => {
     return (
         // navigation menu start 
 
+
+
         <header className='bg-gray-900 h-16'>
             <nav className='max-w-7xl flex items-center text-white mx-auto'>
 

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Feature from '../Feature/Feature';
 import HomeCourse from '../HomeCourse/HomeCourse';
 import './Home.css'
 
@@ -36,17 +37,6 @@ const Home = () => {
                     </div>
                 </section>
 
-                {/* feature section  */}
-                <section className='max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8'>
-                    <div className='grid grid-cols-2 md:grid-cols-4 bg-gray-200 h-28'>
-
-                        <div>Grid 1</div>
-                        <div>Grid 2</div>
-                        <div>Grid 3</div>
-                        <div>Grid 4</div>
-                    </div>
-                </section>
-
                 {/* course section  */}
                 <section>
 
@@ -64,10 +54,8 @@ const Home = () => {
                             }
                         </div>
 
-                        {/* CourseDetail  */}
-                        <div>
-                            {/* <CourseDetails enroll={enroll}></CourseDetails> */}
-                        </div>
+                        {/* Feature  */}
+                        <Feature></Feature>
                     </div>
 
                 </section>
